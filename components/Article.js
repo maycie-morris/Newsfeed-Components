@@ -156,7 +156,7 @@ function articleMaker(dataSet) {
   span.addEventListener('click', e => {
     div.classList.toggle('article-open')
   })
-  span.textContent = '+'
+  span.textContent = 'Expand'
   p.textContent = dataSet.date
   p1.textContent = dataSet.firstParagraph
   p2.textContent = dataSet.secondParagraph
